@@ -51,7 +51,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <p className='text-center text-gray-400 md:text-[18px]'>© Copyright 2020 All rights reserved by recipeBook</p>
+                    <p className='text-center text-gray-400 md:text-[18px]'>© Copyright 2025 All rights reserved by recipeBook</p>
 
 
 
