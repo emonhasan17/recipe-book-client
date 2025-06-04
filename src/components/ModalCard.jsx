@@ -48,6 +48,8 @@ const ModalCard = ({ id,food,setFood }) => {
         }
       })
 
+      document.getElementById(`my_modal_${id}`).close()
+
   }
 
 
