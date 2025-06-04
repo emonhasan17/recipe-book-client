@@ -38,7 +38,7 @@ const LefrSide = ({ recipes , setLiked,liked}) => {
         <div className=''>
             <Fade direction='left' delay={300} triggerOnce='true'>
             <div>
-                <img className='rounded-2xl'  src={image} alt="" />
+                <img className='rounded-2xl md:w-[1050px] md:h-[600px]'  src={image} alt="" />
             </div>
             <div className='flex justify-between items-center mt-6'>
                 <div>

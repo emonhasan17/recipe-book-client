@@ -71,7 +71,7 @@ const MyRecipeCard = ({ recipe, recipeData, setRecipeData }) => {
                     <p className='md:text-2xl text-xl'>Preparation Time: {time}</p>
                     <p className='md:text-2xl text-xl'>Liked by {like} people</p>
                     <div className="card-actions ">
-                        <button onClick={() => handleUpdate(_id)}>update</button>
+                        <button className="btn btn-primary md:text-2xl text-xl" onClick={() => handleUpdate(_id)}>update</button>
                         {/* modal for recipe update */}
 
 
